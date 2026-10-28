@@ -1,23 +1,11 @@
-# 💰 Sistema Financeiro Full Stack
+Sistema Financeiro
 
-Aplicação Full Stack para gerenciamento de finanças pessoais, desenvolvida com Flask, React, TypeScript e PostgreSQL.
+Desenvolvi este projeto para gerenciar finanças pessoais, com cadastro, consulta, edição e exclusão de transações. O sistema conta com um painel para acompanhar receitas, despesas e saldo, além de filtros por categoria e paginação. A interface se adapta a computadores e celulares.
 
-## 🚀 Tecnologias
-- **Back-end:** Python, Flask, SQLAlchemy e Flask-Migrate
-- **Front-end:** React, TypeScript, Vite e CSS3
-- **Banco de dados:** PostgreSQL
-- **DevOps:** Podman, Compose e Nginx
+No back-end, utilizei Python com Flask, SQLAlchemy e Flask-Migrate, com uma API REST conectada ao PostgreSQL. O front-end foi feito com React, TypeScript, Vite e CSS3. Para executar a aplicação, utilizei Podman, Compose e Nginx.
 
-## ⚙️ Funcionalidades
-- Cadastro, consulta, edição e exclusão de transações (CRUD)
-- Dashboard com receitas, despesas e saldo
-- Filtros por categoria e paginação
-- Interface responsiva para desktop e dispositivos móveis
-- API REST integrada ao PostgreSQL
+Para rodar o projeto, configure as variáveis de ambiente e execute:
 
-## 🐳 Execução
-Configure as variáveis de ambiente e execute:
-`podman compose -f docker-compose.yaml up -d --build`
+podman compose -f docker-compose.yaml up -d --build
 
-## 👨‍💻 Desenvolvedor
-[Guilherme Zampar](https://github.com/GuilhermeAZampar)
+Desenvolvido por Guilherme Zampar.
